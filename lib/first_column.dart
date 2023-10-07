@@ -10,8 +10,9 @@ class FirstColumn extends StatelessWidget {
       children: [
         Column(
           children: [
+            SideMenuWidgets(icon: Icons.menu, text: "  ")
             SizedBox(width: 100, height: 50, child: Icon(Icons.menu, color: Colors.grey.shade400, size: 40),),
-            const Text("  ", style: TextStyle(color: Colors.white70),),
+            
           ],
         ),
         Column(
